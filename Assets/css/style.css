@@ -1,0 +1,142 @@
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 5rem;
+    background-color: white;
+}
+
+.nav {
+    display: grid inline-block;
+    grid-column: 2;
+    grid-row: auto;
+    text-align: right;
+    margin: 30px 50px 15px 15px;
+}
+
+.link1 {
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-color: white;
+}
+
+.link1:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-color: cornflowerblue;
+
+}
+
+.logo {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 5px 15px 15px 50px;
+
+    
+
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 50rem;
+    background-color: white;
+}
+
+
+.hero {
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    background-color: white;
+    background-image: url(../../Images/IMG_9545.jpg);
+    background-size: cover;
+
+}
+
+.hello {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    background-color: cornflowerblue;
+}
+
+.picture {
+    display: grid;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 2;
+    background-color: white;
+    background-image: url(../../Images/pic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px 1px 40px 0px;
+
+}
+
+.blurb{
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;
+    background-color: white;
+    padding: 100px 100px 100px 50px;
+    
+
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    color: cornflowerblue;
+    margin: 1px;
+    
+
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-style: italic;
+    text-align: left;
+    margin: 1px;
+
+}
+
+p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: left;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 5rem;
+    background-color: cornflowerblue;
+    grid-gap: 25px;
+    
+}
+
+#copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 0.5px;
+}

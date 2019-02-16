@@ -1,0 +1,127 @@
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 5rem;
+    background-color: white;
+}
+
+.nav {
+    display: grid inline-block;
+    grid-column: 2;
+    grid-row: auto;
+    text-align: right;
+    margin: 30px 50px 15px 15px;
+}
+
+.link1 {
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-color: white;
+}
+
+.link1:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-color: cornflowerblue;
+
+}
+
+.logo {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 5px 15px 15px 50px;
+
+    
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 40rem;
+    background-color: white;
+    grid-gap: 20px ;
+
+}
+
+#one {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(../../Images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#two {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url(../../Images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#three {
+    grid-column: 3;
+    grid-row: 1;
+    background-image: url(../../Images/3.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#four {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(../../Images/4.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#five {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(../../Images/5.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#six {
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url(../../Images/6.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 5rem;
+    background-color: cornflowerblue;
+    margin: 20px 0px 0px 0px;
+    
+}
+
+#copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 0.5px;
+}
